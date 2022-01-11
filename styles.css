@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2F2F2;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
+.center-card {
+  background-color: #EDF1FD;
+  border-radius: 5px;
+  box-shadow: -1px -1px 7px 3px #D8E3E7;
+  height: 650px;
+  width: 100%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+
+/* Navigation Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: calibri;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 50px;
+  background-color: #EDF1FD;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+  margin: auto;
+}
+
+.menu ul {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.menu li a{
+  padding: 10px 15px;
+  color: #6c707c;
+  font-size: 12px;
+}
+
+/* .logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #292929;
+  font-family: Poppins;
+} */
+
+.menu li a:hover {
+  background-color: #292929;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  transition: all ease 0.4s;
+  text-decoration: none;
+}
+
+.big-heading{
+  margin: 300px auto 0 80px;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.intro {
+  font-family: "Ubuntu";
+  line-height: 1.5;
+  margin: 20px 0 0 80px;
+  text-align: left;
+
+}
+/* Image */
+
+.image-col {
+  padding: 0;
+}
+
+.image {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 150px 0 0 60px;
+}
+
+
+/* Resume */
+
+.center-card-resume-top {
+  background-color: #EDF1FD;
+  border-radius: 5px;
+  box-shadow: -1px -1px 7px 3px #D8E3E7;
+  height: 650px;
+  width: 100%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+.center-card-resume-bottom {
+  background-color: #EDF1FD;
+  border-radius: 5px;
+  box-shadow: -1px -1px 7px 3px #D8E3E7;
+  height: 650px;
+  width: 100%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+.col-left {
+  font-family: "Montserrat";
+  color: #1A374D;
+  border-right: 3px solid;
+  height: 600px;
+  width: 35%;
+  float: left;
+  padding: 10px 10px 0 40px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.contact-info a {
+  color: #1A374D;
+}
+
+.contact-info a:hover {
+  text-decoration: none;
+  background-color: #292929;
+  color: #ffffff;
+}
+
+.col-right {
+  font-family: "Montserrat";
+  color: #1A374D;
+  width: 65%;
+  float: right;
+}
+
+.skills {
+  margin-top: 40px;
+}
+.skills ul {
+  list-style-type: disc;
+}
+
+.name {
+  font-family: "Montserrat";
+  margin: 40px auto 0 auto;
+}
+
+.summary {
+  font-family: "Montserrat";
+  text-align: left;
+  padding: 25px 20px 0 20px;
+  margin: 40px auto 0 auto;
+}
+
+.summary-text {
+  margin: 20px auto 0 auto;
+}
+
+.center-card-experience {
+  background-color: #EDF1FD;
+  border-radius: 5px;
+  box-shadow: -1px -1px 7px 3px #D8E3E7;
+  height: 1600px;
+  width: 100%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+.col-left-education {
+  font-family: "Montserrat";
+  color: #1A374D;
+  border-right: 3px solid;
+  height: 1525px;
+  width: 35%;
+  float: left;
+  padding: 10px 10px 0 40px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.education-text {
+  padding-top: 20px;
+}
+
+.linkedin {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.linkedin-text {
+  padding-top: 10px;
+}
+
+.linkedin-text a {
+  text-decoration: none;
+  color: #1A374D;
+}
+
+.linkedin a:hover {
+  color: #8946A6;
+}
+
+.experience {
+  text-align: left;
+  padding: 35px 30px 0 20px;
+}
+
+.experience-text {
+  margin: 20px auto 20px auto;
+}
+
+.experience ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.hobbies {
+  margin-top: 60px;
+}
+.hobbies-text {
+  padding-top: 10px;
+}
+
+.hobbies ul {
+  list-style-type: disc;
+}
+
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 1200px){
+  .center-card-resume-top {
+    background-color: #EDF1FD;
+    border-radius: 5px;
+    box-shadow: -1px -1px 7px 3px #D8E3E7;
+    height: 800px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .col-left {
+    font-family: "Montserrat";
+    color: #1A374D;
+    border-right: 3px solid;
+    height: 680px;
+    width: 35%;
+    float: left;
+    padding: 10px 10px 0 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .center-card-experience {
+    background-color: #EDF1FD;
+    border-radius: 5px;
+    box-shadow: -1px -1px 7px 3px #D8E3E7;
+    height: 1800px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .col-left-education {
+    font-family: "Montserrat";
+    color: #1A374D;
+    border-right: 3px solid;
+    height: 1700px;
+    width: 35%;
+    float: left;
+    padding: 10px 10px 0 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .linkedin-text {
+    font-size: 0.90rem;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+
+  .big-heading{
+    margin: 80px auto 10px auto;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+  }
+  .intro {
+    font-family: "Ubuntu";
+    line-height: 1.5;
+    margin: 40px;
+    text-align: center;
+
+  }
+
+  .image {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 40px auto 20px auto;
+  }
+
+  #resume {
+    font-size: 0.75rem;
+  }
+
+  .center-card-resume-top {
+    background-color: #EDF1FD;
+    border-radius: 5px;
+    box-shadow: -1px -1px 7px 3px #D8E3E7;
+    height: 650px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .col-left {
+    font-family: "Montserrat";
+    color: #1A374D;
+    border-right: 3px solid;
+    height: 600px;
+    width: 35%;
+    float: left;
+    padding: 10px 10px 0 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .summary {
+    margin-top: 20px;
+  }
+
+  .center-card-experience {
+    background-color: #EDF1FD;
+    border-radius: 5px;
+    box-shadow: -1px -1px 7px 3px #D8E3E7;
+    height: 1500px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .col-left-education {
+    font-family: "Montserrat";
+    color: #1A374D;
+    border-right: 3px solid;
+    height: 1450px;
+    width: 35%;
+    float: left;
+    padding: 10px 10px 0 10px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .linkedin-text {
+    font-size: 0.75rem;
+  }
+
+  .hobbies {
+    padding-left: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+
+  .menu {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #resume {
+    font-size: 0.5rem;
+  }
+
+  .center-card-resume-top {
+    background-color: #EDF1FD;
+    border-radius: 5px;
+    box-shadow: -1px -1px 7px 3px #D8E3E7;
+    height: 500px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .col-left {
+    font-family: "Montserrat";
+    color: #1A374D;
+    border-right: 3px solid;
+    height: 450px;
+    width: 35%;
+    float: left;
+    padding: 10px 10px 0 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+.name h1 {
+  font-size: 1.7rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+  .summary {
+    margin-top: 20px;
+  }
+
+  .center-card-experience {
+    background-color: #EDF1FD;
+    border-radius: 5px;
+    box-shadow: -1px -1px 7px 3px #D8E3E7;
+    height: 1050px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .col-left-education {
+    font-family: "Montserrat";
+    color: #1A374D;
+    border-right: 3px solid;
+    height: 1000px;
+    width: 35%;
+    float: left;
+    padding: 10px 10px 0 10px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .education-text {
+    padding-top: 0;
+  }
+
+  .linkedin-text {
+    font-size: 0.50rem;
+  }
+
+  .hobbies {
+    padding-left: 10px;
+  }
+  .hobbies-text {
+    padding-top: 0;
+  }
+  .experience {
+    text-align: left;
+    padding: 37px 30px 0 20px;
+  }
+
+}

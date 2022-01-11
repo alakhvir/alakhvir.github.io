@@ -6,11 +6,12 @@
 
 if (empty($name) || empty($email) || empty($message)){
 
-  echo "Please fill all the fields";
+  echo ("Please fill all the fields");
 }
 else {
-  mail("alakhvir@gmail.com", "New Message", $message, "From: $name < $email>");
-  echo "<script type='text/javascript'>alert('Your message has been sent successfully! Thanks');window.history.log(-1);</script>"
+  mail("alakhvir@gmail.com", "Email Form", $message, "From: $name <$email>");
+  echo "<script type='text/javascript'>alert('Your message has been sent successfully! Thanks');
+  window.history.go(-1);</script>"
 }
 
  ?>

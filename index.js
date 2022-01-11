@@ -18,7 +18,7 @@ function submitForm(e){
 
 
 function sendEmail(name, email, message){
-  email.send({
+  Email.send({
     Host: "smtp.gmail.com",
     Username: "alakhvir@gmail.com",
     Password: "hchyijqkmjrcplaj",
